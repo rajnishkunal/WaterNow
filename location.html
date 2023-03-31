@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+    <style>
+        * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        #heading{ background-color: rgba(192, 192, 198, 0.779);
+            margin-left: 25%;
+            margin-top: 5px;
+            color: black;
+            text-align: center;
+            position: absolute;
+            height: 70px;
+            width: 800px;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 20px;
+            opacity: 10;
+        }
+        #map{
+            height: 99vh;
+            width: 100vw
+        }
+        #sidebar{
+            margin-top: 20%;
+            padding: 20px;
+            text-align: center;
+            margin-left: 85%;
+            position:fixed;
+            z-index: 999;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+   
+    <div >
+         <a href="WaterNow.html"><h2 id="heading">Give access of Your location</h2></a>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.9562691963097!2d88.06949819973993!3d22.05126827370803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f0bda1ced98b%3A0x62bed0c3200444a9!2sDr%20S%20N%20Bose%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1680036810776!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+    
+</body>
+</html>
